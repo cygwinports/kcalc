@@ -1,0 +1,4 @@
+category: KDE Math
+requires: libgcc1 libgmp3 libkdecore5 libQtCore4 libQtGui4 libQtXml4 libstdc++6
+sdesc: "KDE scientific calculator"
+ldesc: "KDE utilities suite"
