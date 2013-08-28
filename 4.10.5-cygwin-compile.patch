@@ -1,0 +1,12 @@
+--- origsrc/kcalc-4.10.5/knumber/knumber_float.cpp	2013-06-28 12:38:46.581913800 -0500
++++ src/kcalc-4.10.5/knumber/knumber_float.cpp	2013-08-27 23:49:52.801713200 -0500
+@@ -24,6 +24,9 @@ along with this program.  If not, see <h
+ #include <QScopedArrayPointer>
+ #include <QDebug>
+ #include <cmath>
++#ifdef HAVE_IEEEFP_H
++#include <ieeefp.h>
++#endif
+ 
+ // NOTE: these assume IEEE floats..
+ #ifndef HAVE_FUNC_ISINF
