@@ -1,10 +1,8 @@
 inherit kde4
 
 NAME="kcalc"
-VERSION=4.10.5
+VERSION=4.11.5
 RELEASE=1
 CATEGORY="Math"
 SUMMARY="KDE scientific calculator"
 DESCRIPTION="Part of the KDE utilities suite"
-
-PATCH_URI="4.10.5-cygwin-compile.patch"
